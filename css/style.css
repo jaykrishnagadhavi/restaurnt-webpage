@@ -6,47 +6,9 @@
    box-sizing: border-box;
 }
 
-/* .hero {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   height: 100vh;
-   background-image: url(images/headerbg.jpeg);
-}
-
-.hero h1 {
-   font-family: "Pixelify Sans", sans-serif;
-   font-size: 7rem;
-   color: #f35626;
-	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	-webkit-animation: hue 5s infinite linear;
-}
-
-.hero p {
-   color: antiquewhite;
-   font-size: 2rem;
-}
-
-@-webkit-keyframes hue {
-   from {
-      -webkit-filter: hue-rotate(0deg);
-   }
-   to {
-      -webkit-filter: hue-rotate(-360deg);
-   }
-}
-
-.overlay {
-   border-image: fill 1 linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
-} */
-
-
 .hero {
    height: 100vh;
-   background-image: url(./images/headerbg.jpeg);
+   background-image: url(../images/headerbg.jpeg);
    display: grid;
    grid-template-columns: repeat(2, 1fr);
    align-items: center;
